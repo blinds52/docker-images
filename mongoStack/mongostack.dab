@@ -1,0 +1,15 @@
+{
+  "Services": {
+    "mongo": {
+      "Env": [
+        "MONGO_INITDB_ROOT_USERNAME=root",
+        "MONGO_INITDB_ROOT_PASSWORD=example"
+      ],
+      "Image": "mongo@sha256:511c3e95ac728c2b41b5886b99110c19fc20fa6a5d965033b0e2ea748fde8a8a",
+      "Networks": [
+        "default"
+      ]
+    }
+  },
+  "Version": "0.1"
+}
